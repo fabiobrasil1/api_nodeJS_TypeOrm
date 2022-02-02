@@ -1,0 +1,34 @@
+{
+  "name": "api_node_typeorm",
+  "version": "1.0.0",
+  "description": "Base de Aplicação",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.2",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiobrasil1/api_nodeJS_TypeOrm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiobrasil1/api_nodeJS_TypeOrm/issues"
+  },
+  "homepage": "https://github.com/fabiobrasil1/api_nodeJS_TypeOrm#readme"
+}
