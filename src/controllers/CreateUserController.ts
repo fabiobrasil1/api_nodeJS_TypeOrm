@@ -1,10 +1,9 @@
 import { Request, Response } from 'express';
 
-
 class CreateUserController {
     handle(request: Request, response: Response) {
         
-        const data = request.body;
+         const data = request.body;
 
         const nome = data.nome;
         const idade = data.idade;
@@ -15,10 +14,7 @@ class CreateUserController {
             "idade": idade,
             "profissao": profissao,
         }) 
-
-
     }
-
 }
 
 export { CreateUserController }
